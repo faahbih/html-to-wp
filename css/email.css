@@ -1,0 +1,265 @@
+/* Folha de estilo
+Layout INPE - Instituto Nacional de Pesquisas Espaciais
+INTRANET / STI
+/*
+
+/*=========================================================================================================================================================*/
+/* ADICIONAR A LINHA:
+
+    <link href="/include/folha_email.css" type="text/css" media="screen" rel="stylesheet" />
+*/
+
+	
+/* GERAL */
+address{
+
+font-style:normal;
+display:inline;
+color: #000;
+}
+
+address.teste[email]:after{
+content: "\40 " attr(email);	
+}
+
+address.dpi:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 dpi.inpe.br"; 
+} 
+/*address.dpi a:after{	
+	content: att(href) "\40 dpi.inpe.br";
+}*/
+
+address.ltid:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 ltid.inpe.br"; 
+} 
+
+address.dsr:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 dsr.inpe.br"; 
+} 
+address.plasma:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 plasma.inpe.br"; 
+} 
+
+address.las:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 las.inpe.br"; 
+} 
+
+address.lac:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 lac.inpe.br"; 
+} 
+
+address.sir:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 sir.inpe.br"; 
+} 
+address.dss:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 dss.inpe.br"; 
+} 
+address.dir:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 dir.inpe.br"; 
+} 
+address.ccs:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 ccs.inpe.br"; 
+} 
+address.cba:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 cba.inpe.br"; 
+} 
+address.elo:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 elo.inpe.br"; 
+}
+
+address.yahoo:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 yahoo.inpe.br"; 
+}
+
+address.laser:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 laser.inpe.br"; 
+}
+address.dge:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 dge.inpe.br"; 
+}
+address.dae:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 dae.inpe.br"; 
+}
+address.makenzie:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 crann.mackenzie.br"; 
+}
+address.feg:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 feg.unesp.br"; 
+}
+address.ieav:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 ieav.cta.br"; 
+}
+
+address.cptec:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 cptec.inpe.br"; 
+}
+
+address.inpe:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 inpe.br"; 
+}
+
+address.sci:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 sci.inpe.br"; 
+}
+
+address.dmf:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 dmf.inpe.br"; 
+}
+
+address.dem:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 dem.inpe.br"; 
+}
+
+address.dea:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 dea.inpe.br"; 
+}
+
+address.dgi:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 dgi.inpe.br"; 
+}
+
+address.sid:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 sid.inpe.br"; 
+}
+
+address.crn:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 crn.inpe.br"; 
+}
+
+address.drs:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 drs.inpe.br"; 
+}
+
+address.lcp:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 lcp.inpe.br"; 
+}
+
+address.adm:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 adm.inpe.br"; 
+}
+
+address.std:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 std.inpe.br"; 
+}
+
+address.sia:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 sia.inpe.br"; 
+}
+
+address.mct:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 mct.gov.br"; 
+}
+
+address.das:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 das.inpe.br"; 
+}
+
+address.slb:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 slb.inpe.br"; 
+}
+
+address.crs:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 crs.inpe.br"; 
+}
+
+address.urc:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 urc.inpe.br"; 
+}
+
+address.lit:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 lit.inpe.br"; 
+}
+
+address.gmail:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 gmail.com"; 
+}
+
+address.craam:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 craam.mackenzie.br"; 
+}
+
+address.pgrad:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 pgrad.inpe.br"; 
+}
+
+address.ifma:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 ifma.edu.br"; 
+}
+
+address.fct:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 fct.unesp.br"; 
+}
+
+address.ifam:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 ifam.edu.br"; 
+}
+
+address.css:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 ccs.inpe.br"; 
+}
+
+address.craae:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 craae.mackenzie.br"; 
+}
+
+address.ibict:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 ibict.br"; 
+}
+
+address.roen:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 roen.inpe.br"; 
+}
+
+address.unifesp:after{ 
+/* 40 é um código para escrever o caractere '@' */ 
+content: "\40 unifesp.br"; 
+}
