@@ -68,3 +68,10 @@
         </div>
       </nav>
       <!-- /.Navigation -->
+
+<header>
+  <div class="container">
+    <?php 
+    wp_nav_menu(); ?>
+  </div>
+</header>
